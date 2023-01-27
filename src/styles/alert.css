@@ -1,0 +1,145 @@
+.MailMeAlert{  
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top :0 ;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.backGroundBlur {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.455);
+    position: absolute;
+}
+.MailMeBox {
+    z-index: 9999;
+    width: 600px;
+    height: 440px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.MailMeBox .text {
+    font-size: 25px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #003f8c ;
+    font-family: Fredoka;
+
+}
+.MailMeBox form {
+    font-size: 23px;
+    width: 100%;
+    color: #003f8c;
+    font-weight: 700;
+    padding: 20px;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.MailMeBox form input {
+    outline: none;
+    border: 1px solid #003f8c;
+    color: #003f8c;
+    border-radius: 9px;
+     margin-left: 10px; 
+    font-size: 20px;
+    padding: 5px;
+}
+
+textarea {
+    outline: none;
+    border: 1px solid #003f8c;
+    border-radius: 9px;
+    margin-left: 0px;
+    font-size: 20px;
+    padding: 5px;
+    resize: none;
+    color: #003f8c;
+}
+.Send {
+    background-color: #003f8c;
+    color: white;
+    font-size: 21px;
+    border-radius: 9px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.Pending {
+    position: absolute;
+    width: 100% ;
+    height: 100%;
+    font-family: Fredoka;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #022144;
+
+}
+.Success {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: Fredoka;
+    color: #179848;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.Success .container ,.Error .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Success .container .circle ,.Error .container .circle {
+    width: 200px;
+    height: 200px;
+    background-color: #179848;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.Error .container .circle {
+    background-color: #ff5f5f;
+}
+.Success .container .circle .bx ,.Error .container .circle .bx {
+    font-size: 120px;
+}
+.Success .container .text ,.Error .container .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Error {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: Fredoka;
+    color: #ff5f5f;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}

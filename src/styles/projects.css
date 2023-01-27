@@ -1,0 +1,67 @@
+.ProjectsContainer {
+    background-color: #e9ebee;
+    min-height: 800px;
+    color: #0b214a;
+    padding: 30px;
+    
+}
+.forProjects
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.swiperContain {
+    width: 100%;
+
+}
+.box {
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.itemInfo {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+
+}
+.info {
+    background-color: white;
+    color: #022144;
+    width: 80%;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.projectsText {
+    width: 100%;
+    color: #022144;
+    font-family: Fredoka;
+    font-size: 25px;
+}
+.swiper {
+    width: 800px;
+    height: 600px;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swipeImages {
+    width: 800px;
+    height: 500px;
+}
