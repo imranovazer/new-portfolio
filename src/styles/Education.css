@@ -1,0 +1,46 @@
+.Education {
+    background-color: white;
+    border-radius: 21px;
+    padding: 15px;
+}
+.Education .Timeline
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #003f8c;
+    margin-left: 20px;
+   
+} 
+.Education .Timeline .school
+{
+    line-height: 1;
+    width: fit-content;
+    height: 80px;
+}
+.Education .Timeline .school .date::before
+{
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #003f8c;
+    position: absolute;
+    left: -28px;
+}
+.Education .Timeline .school::before
+{
+    content: " ";
+    display: inline-block;
+    width: 2px;
+    height: 25%;
+    background-color: #003f8c;
+    position: absolute;
+    left: -20px;
+}
+.Education .Timeline .scName
+{
+    font-size: 20px;
+    font-weight: 700;
+}

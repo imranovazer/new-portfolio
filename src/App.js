@@ -7,7 +7,7 @@ import Alert from "./components/Alert";
 import './styles/body.css'
 
 const App = () => {
-    const [connectClicked, setConnectClicked] = React.useState(true);
+    const [connectClicked, setConnectClicked] = React.useState(false);
     const changeAlert = () => {
         setConnectClicked(prev => !prev)
 

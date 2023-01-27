@@ -59,6 +59,7 @@
 .skillsInfo
 {
     width: 50%;
+
 }
 .skillsInfo .bx
 {
@@ -67,10 +68,15 @@
 }
 .SkillsBox {
     width: 90%;
+    height: 100px;
     background-color: white;
     border-radius: 21px;
     padding: 15px;
     color: #003f8c;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     
 }
 .SkillsBox span {

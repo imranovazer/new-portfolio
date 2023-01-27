@@ -8,7 +8,7 @@ const data = [
         id: 0,
         src: eCommerce,
         link: "https://ecommerce38.netlify.app/",
-        info: "eCommerce web site implemented by using ecommerce.js as back-end"
+        info: "eCommerce web site with ecommerce.js API"
     },
     {
         id: 1,
@@ -20,7 +20,7 @@ const data = [
         id: 2,
         src: Quiz,
         link: "https://homeworkprojectbwd.000webhostapp.com/index.php",
-        info: "Fullstack web application for creating quizes"
+        info: "Simple fullstack web application for creating quizes"
 
     },
     {
@@ -33,8 +33,8 @@ const data = [
     {
         id: 4,
         src: theMind,
-        link: "https://elsadwants38.netlify.app",
-        info: "Online card game in web brauser created with hte help of websockets. Coming soon..."
+        link: "https://github.com/3plus3/TheMindGameProject",
+        info: "It is the largest project on which I have worked really hard with my team. It is multiplayer card game on web. It implemented with websockets. Project not deployed yet but you can see the code in github"
     }
 ]
 export default data;

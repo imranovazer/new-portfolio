@@ -1,11 +1,12 @@
 import React from "react";
 import '../styles/header.css'
 import Ava from '../images/Ava.jpg'
+import Education from "./Education";
 
 
 const Header = () => {
 
-    const mySkills = ["React Js","TypeScript","Mysql","Mongo DB","Express Js"]
+    const mySkills = ["React Js","Express Js","JavaScript","TypeScript","html","scss","Mysql","Mongo DB","Figma"]
     return <div className='HeaderContainer'>
         <div className="container forContainer">
             <div className="PersonalInfo">
@@ -22,8 +23,8 @@ const Header = () => {
                     </span>
                     <br />
                     <span>
-                    <i className='bx bxs-school'></i>
-                    UFAZ
+                    <i className='bx bxl-gmail'></i>
+                    imranovazer@gmail.com
                     </span>
                     <br />
                     <span>
@@ -48,9 +49,10 @@ const Header = () => {
                         </span>
                         <br />
                     </div>)
-                }
-
+                    }
                 </div>
+                <h2>Education</h2>
+                <Education / >
                 
             </div>
 

@@ -42,6 +42,12 @@ const Projects = () => {
                       {e.info}
 
                     </div>
+                    <div className="info links">
+                      <a href={e.link}>
+                        <i class='bx bx-link-external'></i>
+                      </a>
+
+                    </div>
 
                   </div>
                 </div>
