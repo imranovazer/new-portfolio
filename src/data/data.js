@@ -2,6 +2,7 @@ import MyNote from "../images/MyNote.png"
 import eCommerce from "../images/eCommerce.png"
 import theMind from "../images/TheMind.png"
 import Quiz from "../images/Quiz.jpg";
+import MonoFi from '../images/MonoFi.png'
 
 const data = [
     {
@@ -37,4 +38,11 @@ const data = [
         info: "It is the largest project on which I have worked really hard with my team. It is multiplayer card game on web. It implemented with websockets. Project not deployed yet but you can see the code in github"
     }
 ]
+export const Prioritet = {
+    MonoFi: {
+        image: MonoFi,
+        title: "Working on...",
+        link: "https://monofi38.netlify.app/"
+    }
+}
 export default data;

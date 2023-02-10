@@ -76,9 +76,6 @@ const Alert = ({changeAlert}) =>
                 </label>
                 <textarea cols="30" rows="10" onChange={(event)=>setText(event.target.value)}></textarea>
                 <button className='Send'> Send</button>
-
-
-
             </form>
 
         </div>

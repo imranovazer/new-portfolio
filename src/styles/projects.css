@@ -3,7 +3,7 @@
     min-height: 800px;
     color: #0b214a;
     padding: 30px;
-    
+ 
 }
 .forProjects
 {
@@ -15,6 +15,7 @@
 }
 .swiperContain {
     width: 100%;
+    margin-bottom: 200px;
 
 }
 .box {
@@ -74,4 +75,43 @@
 .swipeImages {
     width: 800px;
     height: 500px;
+}
+.Fullstack {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 30px;
+
+}
+.Fullstack .Prioritet{
+    width: 60%;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+   
+    
+}
+.Fullstack .Prioritet img {
+    width: 100%;
+}
+.Fullstack .Prioritet .under
+{ position: absolute;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    font-weight: 700;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    bottom: -50px;
+    transition: 0.2s;
+
+}
+.Fullstack .Prioritet:hover .under {
+    bottom: 0;
+
 }
