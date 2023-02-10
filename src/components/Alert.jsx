@@ -60,6 +60,7 @@ const Alert = ({changeAlert}) =>
                     <div className="text">
                         Something went wrong
                     </div>
+                    <p>(I have to pay for Heroku 😊)</p>
 
                 </div>
 

@@ -143,3 +143,8 @@ textarea {
     justify-content: center;
     background-color: white;
 }
+.Error p {
+    color: #003f8c;
+    font-size: 14px;
+    font-weight: 700;
+}
