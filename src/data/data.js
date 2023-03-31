@@ -3,7 +3,7 @@ import eCommerce from "../images/eCommerce.png"
 import theMind from "../images/TheMind.png"
 import Quiz from "../images/Quiz.jpg";
 import MonoFi from '../images/MonoFi.png'
-
+import Blog from '../images/Blog.png'
 const data = [
     {
         id: 0,
@@ -43,6 +43,11 @@ export const Prioritet = {
         image: MonoFi,
         title: "Working on...",
         link: "https://monofi38.netlify.app/"
+    },
+    Blog: {
+        image: Blog,
+        title: "My fullstack app where for now you just can create posts",
+        link: "https://my-blog38.netlify.app/"
     }
 }
 export default data;

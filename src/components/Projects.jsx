@@ -27,6 +27,14 @@ const Projects = () => {
               {Prioritet.MonoFi.title}
             </div>
           </div>
+          <div className="Prioritet"> 
+            <a href={Prioritet.Blog.link}>
+            <img src={Prioritet.Blog.image} alt="" srcset="" />
+              </a>
+            <div className="under">
+              {Prioritet.Blog.title}
+            </div>
+          </div>
           
         </div>
         <div className="swiperContain">
