@@ -3,6 +3,7 @@ import '../styles/projects.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import data from "../data/data";
 import { Prioritet } from "../data/data";
+import ProjectCard from "./projectCard";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -17,24 +18,17 @@ const Projects = () => {
       <div className="container forProjects">
         <div className="projectsText">
           My projects: 
+
+        </div>
+
+        <div className="ContainerForProjects">
+          {
+            data.map((e, i) => <ProjectCard key={ i} info={e.info} src={e.src} />)
+          }
+
         </div>
         <div className="Fullstack">
-          <div className="Prioritet"> 
-            <a href={Prioritet.MonoFi.link}>
-            <img src={Prioritet.MonoFi.image} alt="" srcset="" />
-              </a>
-            <div className="under">
-              {Prioritet.MonoFi.title}
-            </div>
-          </div>
-          <div className="Prioritet"> 
-            <a href={Prioritet.Blog.link}>
-            <img src={Prioritet.Blog.image} alt="" srcset="" />
-              </a>
-            <div className="under">
-              {Prioritet.Blog.title}
-            </div>
-          </div>
+          
           
         </div>
         <div className="swiperContain">
@@ -55,7 +49,7 @@ const Projects = () => {
             {
               data.map((e,i) => <SwiperSlide key={i}>
                 <div className="box">
-                  <img src={e.src} className="swipeImages" />
+                  <img src={e.src[0]} className="swipeImages" />
                   <div className="itemInfo">
                     <div className="info">
                       {e.info}
